@@ -28,6 +28,7 @@ Consulta la documentación oficial de [Terraform](https://www.terraform.io/) par
 - CloudWatch (logs y métricas)
 - Seguridad con Grupos de Seguridad personalizados
 - Infraestructura modularizada con Terraform
+- Despliegue CI/CD con GitHub Actions
 ---
 ## 🚀 Uso del código
 ---

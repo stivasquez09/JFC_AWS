@@ -42,6 +42,6 @@ module "eks_cluster" {
       security_groups = [aws_security_group.eks_nodes_sg.id]
     }
   }
-
-  tags = var.tags
+  cloudwatch_log_group_retention_in_days = 7
+  tags                                   = var.tags
 }
