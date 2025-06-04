@@ -14,7 +14,7 @@
           <mxGeometry x="-370" y="-320" width="1030" height="750" as="geometry" />
         </mxCell>
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-43" value="JFC Route53" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.route_53;" vertex="1" parent="SEBXCIEi1Ep4QCb8xXwG-3">
-          <mxGeometry x="220" y="10" width="50" height="50" as="geometry" />
+          <mxGeometry x="240" y="10" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-4" value="Region [us-east-1]" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="-240" width="950" height="650" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry x="200" y="10" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-44" value="Security Groups" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.instance2;" vertex="1" parent="SEBXCIEi1Ep4QCb8xXwG-4">
-          <mxGeometry x="290" y="10" width="50" height="50" as="geometry" />
+          <mxGeometry x="70" y="140" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-7" value="VPC-XX" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="-300" y="-150" width="760" height="520" as="geometry" />
@@ -98,11 +98,20 @@
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-45" value="JFC User" style="shape=actor;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-610" y="95" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SEBXCIEi1Ep4QCb8xXwG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEBXCIEi1Ep4QCb8xXwG-46" target="SEBXCIEi1Ep4QCb8xXwG-38">
+        <mxCell id="SEBXCIEi1Ep4QCb8xXwG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEBXCIEi1Ep4QCb8xXwG-55" target="SEBXCIEi1Ep4QCb8xXwG-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SEBXCIEi1Ep4QCb8xXwG-46" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="-510" y="87.5" width="119.05" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="SEBXCIEi1Ep4QCb8xXwG-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SEBXCIEi1Ep4QCb8xXwG-46" target="SEBXCIEi1Ep4QCb8xXwG-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-391" y="125" as="sourcePoint" />
+            <mxPoint x="-20" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SEBXCIEi1Ep4QCb8xXwG-55" value="Internet Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.internet_gateway;" vertex="1" parent="1">
+          <mxGeometry x="-232" y="101" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
