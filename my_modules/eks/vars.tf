@@ -51,6 +51,6 @@ variable "tags" {
   type    = map(string)
   default = {
     Environment = "prod"
-    Project     = "jfc-ecommerce"
+    Project     = "JFC"
   }
 }

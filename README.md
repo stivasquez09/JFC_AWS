@@ -7,6 +7,8 @@ Este repositorio contiene la infraestructura como código (IaC) implementada en 
 
 Consulta la documentación oficial de [Terraform](https://www.terraform.io/) para obtener más información sobre cómo utilizar esta herramienta con **AWS**.
 
+###  Arquitectura JFC
+![Diagrama](./Diagrama_JFC.jpeg)
 ---
 
 ## ✅ Pre-requisitos
